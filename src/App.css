@@ -1,0 +1,145 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: '#f8f9fare';
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.Hading{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  background-color: black;
+}
+
+.Hading h1{
+  color: white;
+  font-weight: 600;
+}
+
+/* Header Styles */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Date Filter Styles */
+.date-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.date-filter .react-datepicker-wrapper {
+  margin: 0 10px;
+}
+
+.date-filter .react-datepicker__input-container input {
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.date-filter .react-datepicker__input-container input::placeholder {
+  color: #ccc;
+}
+
+/* Sort Buttons Styles */
+.sort-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: #555;
+}
+
+/* Follower List Styles */
+.follower-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  animation: fadeIn 1s ease;
+}
+
+.follower-list .fade-enter {
+  opacity: 0;
+}
+
+.follower-list .fade-enter-active {
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+.follower-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.follower-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.follower-info h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.follower-info p {
+  text-align: center;
+}
+
+.follower-info button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.follower-info button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,16 @@
+.date-filter {
+    margin-bottom: 20px;
+  }
+  
+  .date-filter .react-datepicker-wrapper {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .date-filter .react-datepicker__input-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
