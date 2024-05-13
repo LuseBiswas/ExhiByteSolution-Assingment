@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ExhiByte Solution Assingment
 
-Currently, two official plugins are available:
+To runn the website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Download the Code
+- Open the VS code
+- npm install
+- npm run dev
+
+
+
+## Screenshots
+
+<img width="1470" alt="Screenshot 2024-05-14 at 12 25 34 AM" src="https://github.com/LuseBiswas/ExhiByteSolution-Assingment/assets/99740610/23836947-4415-46fb-a747-f7a969094666">
+
+
